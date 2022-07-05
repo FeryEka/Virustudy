@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b8cb81c3e35034541ae6af0ee77c895a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gotham Book
+  fontNames:
+  - Gotham Book
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 91c9a7ab44f0f804289ca13b9447eff1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
