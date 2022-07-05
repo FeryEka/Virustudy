@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 7fedbbcc73b050342a07c7a0cb57119b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gotham Thin
+  fontNames:
+  - Gotham Thin
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4ecebec15a159af4e911d8f487948810, type: 3}
+  - {fileID: 12800000, guid: 3f184f05bfbd5bb478fa4f8450b51471, type: 3}
+  - {fileID: 12800000, guid: 87d5c44cdcf0b6d49bc489f92b2977c9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
