@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99d231cf7737580458756be8d3cd5e15
+guid: 96f0eb59b309f8743b70ebe69b2406e1
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,8 +11,7 @@ TrueTypeFontImporter:
   fontName: Gotham Ultra
   fontNames:
   - Gotham Ultra
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 09d6799f3dd579744810315e5a71d886, type: 3}
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

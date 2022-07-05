@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19eb02ebe38818a4590090b88e2bd4a1
+guid: 5a0c5b4fe82dcb945a4e7dea285a9045
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -12,7 +12,7 @@ TrueTypeFontImporter:
   fontNames:
   - Gotham Black
   fallbackFontReferences:
-  - {fileID: 12800000, guid: d867d9069131b3149bf9801c23333036, type: 3}
+  - {fileID: 12800000, guid: 8826a061e3fc8fa4c9a9091159cc8194, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
