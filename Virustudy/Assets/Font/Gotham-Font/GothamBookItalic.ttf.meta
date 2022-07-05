@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8458744329be56d48aff16cffa5d75c7
+guid: 24873a990368a0d4a8ec77bcdbac5049
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -12,12 +12,12 @@ TrueTypeFontImporter:
   fontNames:
   - Gotham
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 74be5000e08da9b4296790968140cac1, type: 3}
-  - {fileID: 12800000, guid: 93555f412ba1be041b29511f9b1d1d3f, type: 3}
-  - {fileID: 12800000, guid: d1fc0fe7aadee2348948aef1aaa663b7, type: 3}
-  - {fileID: 12800000, guid: 70da175b8fd854a4e8470db3f0d74ba5, type: 3}
-  - {fileID: 12800000, guid: 430a5f4c2aacaeb468f53d530f7ea7fa, type: 3}
-  - {fileID: 12800000, guid: f3199edeeaeb4ee4f88070faaa4df200, type: 3}
+  - {fileID: 12800000, guid: 02137342e127cb74981559fbb4650ac4, type: 3}
+  - {fileID: 12800000, guid: 53b38485a36172d4cabca61a33d6e2fb, type: 3}
+  - {fileID: 12800000, guid: c2b48e7706318a441abec1f5b0d9b16c, type: 3}
+  - {fileID: 12800000, guid: e1daa15910bc3aa4284cb0af5bc5353c, type: 3}
+  - {fileID: 12800000, guid: d290f6dce4770b9498dd68c7aa9f9869, type: 3}
+  - {fileID: 12800000, guid: 62231aedc2152fb40896632c6c7bdb30, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

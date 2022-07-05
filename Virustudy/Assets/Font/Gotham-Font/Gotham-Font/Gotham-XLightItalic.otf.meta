@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fba7427d79dc9c1478bbef8d153277ff
+guid: 813f296339a24c948bab1c4edf66dd2b
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -12,9 +12,8 @@ TrueTypeFontImporter:
   fontNames:
   - Gotham XLight
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 0b3049a3e7db73f43b33b176ec157564, type: 3}
-  - {fileID: 12800000, guid: 232271ebcd65bdc48a11d7b340171f67, type: 3}
-  - {fileID: 12800000, guid: c612294c50eb97945a1fe9994d3576e3, type: 3}
+  - {fileID: 12800000, guid: e04d40c27bd853040b2b0b504eec1d76, type: 3}
+  - {fileID: 12800000, guid: e057fd4eed3a2d1498916e1fb9bba7d5, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

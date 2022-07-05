@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b8cb81c3e35034541ae6af0ee77c895a
+guid: a60dc69276dbd91489e5b60a12e33632
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -12,7 +12,7 @@ TrueTypeFontImporter:
   fontNames:
   - Gotham Book
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 91c9a7ab44f0f804289ca13b9447eff1, type: 3}
+  - {fileID: 12800000, guid: d4d7fccfc95c4a741b548626d7d12cd0, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
