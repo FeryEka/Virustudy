@@ -3,14 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class jawab : MonoBehaviour
+public class Jawab : MonoBehaviour
 {
     public GameObject benar, salah;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     public void jawaban(bool jawab)
     {
@@ -30,9 +25,7 @@ public class jawab : MonoBehaviour
         transform.parent.GetChild(gameObject.transform.GetSiblingIndex() + 1).gameObject.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+		
     }
 }
