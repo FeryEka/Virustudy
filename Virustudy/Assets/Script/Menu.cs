@@ -14,7 +14,13 @@ public class Menu : MonoBehaviour
 	}
 	
 	public void BtnClose() {
+        SceneManager.LoadScene("Virustudy");
+	}
+	
+	/* 
+	public void BtnClose() {
 	    Debug.Log("Close");
         Application.Quit();
 	}
+	*/
 }
