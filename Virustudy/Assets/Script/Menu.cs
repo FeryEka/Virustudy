@@ -5,12 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public void BtnMateri() {
-        SceneManager.LoadScene("Materi");
+    public void BtnMateriPilihBab() {
+        SceneManager.LoadScene("Materi_Pilih_Bab");
 	}
 	
 	public void BtnKuis() {
         SceneManager.LoadScene("Kuis");
+	}
+	
+	public void BtnPanduan() {
+        SceneManager.LoadScene("Panduan");
+	}
+	
+	public void BtnInformasi() {
+        SceneManager.LoadScene("Informasi");
 	}
 	
 	public void BtnClose() {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AugmentedReality : MonoBehaviour
+public class Panduan : MonoBehaviour
 {	
     public void BtnClose() {
-        SceneManager.LoadScene("Materi_Bab1");
+        SceneManager.LoadScene("Menu");
 	}
 }

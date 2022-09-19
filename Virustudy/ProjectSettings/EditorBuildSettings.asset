@@ -12,12 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 1aef996a665e8c242a19c6890fd9d113
   - enabled: 1
-    path: Assets/Scenes/Materi.unity
+    path: Assets/Scenes/Materi_Pilih_Bab.unity
+    guid: ed2b15104c1c69748b1b46921f64859f
+  - enabled: 1
+    path: Assets/Scenes/Materi_Bab1.unity
     guid: 87d8f3a7ba4b57846824072de84b7af9
+  - enabled: 1
+    path: Assets/Scenes/AR_Bab1.unity
+    guid: 78097a4707b9d794aaf4cfc128d5c005
   - enabled: 1
     path: Assets/Scenes/Kuis.unity
     guid: 087e9c2786618fe40b7e22c61270e2c5
   - enabled: 1
-    path: Assets/Scenes/AugmentedReality.unity
-    guid: 78097a4707b9d794aaf4cfc128d5c005
+    path: Assets/Scenes/Panduan.unity
+    guid: 9d07c00bed1501442923f3c3411f6780
+  - enabled: 1
+    path: Assets/Scenes/Informasi.unity
+    guid: 3261dca1b0aff3d469becd0560f4e085
   m_configObjects: {}
