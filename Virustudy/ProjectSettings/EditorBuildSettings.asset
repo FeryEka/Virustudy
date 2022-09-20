@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Materi_Pilih_Bab.unity
     guid: ed2b15104c1c69748b1b46921f64859f
   - enabled: 1
-    path: Assets/Scenes/Materi_Bab1.unity
+    path: Assets/Scenes/Materi_Bab2.unity
     guid: 87d8f3a7ba4b57846824072de84b7af9
   - enabled: 1
     path: Assets/Scenes/AR_Bab1.unity
