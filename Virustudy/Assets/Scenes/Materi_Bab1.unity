@@ -151,13 +151,16 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1532868680}
+  - {fileID: 1212603623}
+  - {fileID: 1366183598}
+  - {fileID: 1725570377}
   m_Father: {fileID: 1817377765}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.00036621094}
-  m_SizeDelta: {x: 24.7423, y: 5046.0674}
+  m_SizeDelta: {x: 24.7423, y: 16000}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &67840523
 GameObject:
@@ -647,7 +650,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 744170357}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.46513206
+  m_Size: 0.14669299
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -765,6 +768,156 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744170356}
   m_CullTransparentMesh: 1
+--- !u!1 &1212603622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1212603623}
+  - component: {fileID: 1212603625}
+  - component: {fileID: 1212603624}
+  m_Layer: 5
+  m_Name: gambar1.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1212603623
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212603622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 261, y: 4100}
+  m_SizeDelta: {x: 1000, y: 505}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1212603624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212603622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3b9cfa383c5418848980a929953eddfd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1212603625
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212603622}
+  m_CullTransparentMesh: 1
+--- !u!1 &1366183597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1366183598}
+  - component: {fileID: 1366183600}
+  - component: {fileID: 1366183599}
+  m_Layer: 5
+  m_Name: gambar1.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1366183598
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366183597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 261, y: 1450}
+  m_SizeDelta: {x: 1000, y: 505}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1366183599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366183597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 073e9757bb1432048b22b6088e8e2167, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1366183600
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366183597}
+  m_CullTransparentMesh: 1
 --- !u!1 &1532868679
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,7 +943,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532868679}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -799,8 +952,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.006225586, y: 107.91992}
-  m_SizeDelta: {x: 1718.1, y: 4830.2}
+  m_AnchoredPosition: {x: -0.006225586, y: -20.22168}
+  m_SizeDelta: {x: 1718.1, y: 16000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532868681
 MonoBehaviour:
@@ -835,28 +988,77 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "\t\tSatu tim yang dipimpin oleh peneliti dari Purdue University di Amerika
-    Serikat untuk pertama kalinya menggambarkan Struktur Virus Zika. Tim ini mengungkap
-    pengetahuan penting untuk pengembangan vaksindan obat antiviral efektif, dalam
-    makalah ilmiah yang dipublikasikan di jurnal Science edisi 31 Maret 2016, tim
-    mengidentifikasi daerah-daerah dalam struktur virus Zika yang berbeda dari flavivirus
-    lain. Flavivirus adalah keluarga virus yang di antaranya meliputi virus seperti
-    Zika, dengue, West Nile, demam kuning, dan Japanese encephalitis.\r\n\t\t\u201CSetiap
-    daerah dalam struktur virus Zika yang unik berpotensi menjelaksan perbedaan dalam
-    bagaimana virus menular dan bagaimana virus itu bermanifestasi sebagai satu penyakit\u201D,
-    kata Richard Kuhn, direktur Purdue Institute for Inflammation, Immunology and
-    Infectious Diseases (PI4D). Kuhn, yang juga kepala departemen ilmu Biologi Purdue,
-    mengatakan struktur virus memberikan peta yang menunjukkan daerah-daerah potensial
-    virus yang bisa menjadi target terapi pengobatan, dan digunakan untuk membuat
-    vaksin efektif atau memperbaiki kemampuan mendiagnosis dan membedakan infeksi
-    Zika dari infeksi terkati virus yang lain.\r\n\t\tTim peneliti mempelajari satu
-    strainvirus Zika yang diisolasi dari satu pasien yang terinfeksi selama epidemi
-    di Polynesia Prancis dan menentukan strukturnya. Rossmann menjelaskan bahwa dengan
-    resolusi mendekati atomic, bentuk-bentuk kunci struktur virus bisa dilihat dan
-    kelompok-kelompok atom yang membentuk entitas kimia spesifik seperti yang mewakili
-    satu dari 20 asam amino alami bisa dikenal. Tim mendapati strukturnya sangat
-    mirip flavivirus yang lain, dengan genom RNA dikepung lemak, atau bergajih, membrane
-    di dalam selaput protein icosahedral. \r\n"
+  m_Text: "Sejarah Penemuan Virus\n\n\t\tIstilah virus berasal dari Bahasa latin
+    yang berarti racun. Virus ditemuka pertama kali oleh ilmuan jerman. Adolf Meyer,
+    pada tahun 1883 ketika sedang meneliti penyebab penyakit mosaik pada tanaman
+    tembakau. Penyakit mosaik tersebut menyebabkan bercak bercak pada daun tembakau
+    sehingga menghambat pertumbuhan tanaman, oleh karena itu disebut \u201Cmosaik\u201D.
+    Adolf Mayer berhasil memindahkan penyakit tersebut dari tanaman yang sakit ke
+    tanaman lain yang masih sehat dengan menyemprotkan getah yang diekstraksi dari
+    daun tanaman sakit ke tanaman sehat. Tanaman sehat itu pun menjadi sakit. Melalui
+    pengamatan di mikroskop, Mayer tidak dapat melihat bentuk bakteri penyebab penyakit
+    tersebut. Mayer menduga bahwa penyebab penyakit mosaik tersebut disebabkan oleh
+    bakteri yang lebih kecil dari biasanya, yang dapat diamati dengan mikroskop biasa.\r\n\t\tSatu
+    dawarsa kemudian (tahun 1892), seorang ilmuwan Rusia bernama Dimitri Ivanowsky
+    melakukan percobaan menyaring getah tanaman tembakau berpenyakit dengan saringan
+    yang dodesaom khusus untuk menyaring bakteri. Kemudian hasil saringan ditularkan
+    pada tanaman sehat. Ternyata, filtrat masih menimbulkan penyakit mosaik pada
+    tembakau sehat. Seperti halnya Meyer, Ivanowsky berkesimpulan bahwa penyakit
+    tersebut disebabkan oleh bakteri patogenik yang sangat kecil atau bakteri penghasil
+    toksin yang dapat melewati saringan. Gambar 1.1 menunjukan ilustrasi percobaan
+    Adolf Meyer dan Dimitri Ivanowsky \r\n\n\n\n\n\n\n\t\tPada tahun1897, seorang
+    ahli botani Belanda bernama Martinus Beijerinck melakukan eksperimen yang membuktikan
+    bahwa agen penginfeksi yang terdapat di dalam getah tembakau dapat berkembang
+    biak (Gambar 1.2) Beijerinck menyemprotkan getah yang telah disaring ke tanaman
+    lainnya. Setelah tanaman tersebut sakit, maka getahnya digunakan untuk menginfeksi
+    tanaman berikutnya, dan seterusnya hingga beberapa kali pemindahan. Ternyata,
+    kemampuan pathogen tersebut tidak berkurang setelah beberapa kali pemindahan.
+    Berbeda dengan bakter, agen penginfeksi tersebut tidak dapat dikembangbiakkan
+    dalam medium nutrisi di dalam cawan petri dan tidak dapat dinonaktifkan dengan
+    alcohol. Beijerinck memperkirakan agen penginfeksi tersebut adalah partikel yang
+    jauh lebih kecil dan lebih sederhana dari pada bakteri. Ia menyebutnya sebagai
+    virus lolos saring(filterable virus).\n\n\n\n\n\n\n\nCiri-Ciri Virus\r\n\n\t\tVirus
+    memiliki ukuran sangat renik, yaitu antara 25 \u2013 300 nm(1nm = 10-9m). virus
+    yang berukuran paling kecil adalah virus polio (Poliovirus). Panjang tubuhnya
+    hanya 25 nm. Virus yang berukuran besar memiliki ukuran tubuh antara 150 \u2013
+    300 nm atau lebih, misalnya parainfluenza virus yang menyerang saluran pernafasan,
+    Morbilivirus yang menyebabkan penyakit campak dan Tobacco mosaic virus yang menyebabkan
+    penyakit mozaik pada tembakau. Oleh karena ukuran tubuhnya sangat renik, untuk
+    mengetahui ukuran virus ada beberapa cara yang dapat dilakukan, antara lain sebagai
+    berikut:\r\n\t1. Observasi langsung menggunakan mikroskop electron\r\n\t2. Filtrasi
+    melalui selaput kolodion yang mempunyai porositas bertingkat\r\n\t3. Sedimentasi
+    dalam ultrasentrifugasi\r\n\t4. Pengukuran perbanding\r\nBentuk virus bervariasi,
+    antara lain berbentuk batang, bulat, oval, filamen (benang), polyhedral, dan
+    seperti huruf T. Virus yang berbentuk batang, misalnya TMV (Tobacco mosaic virus).
+    Virus berbentuk bulat misalnya HIV (Human immunodeficiency virus) penyebab penyakit
+    AIDS dan Orthomyzovirus penyebab influenza. Virus yang berbentuk seperti huruf
+    T misalnya bakteriofag yang berbentuk polyhedral misalnya Rhabdovirus yang menyebabkan
+    penyakit rabies, virus yang berbentuk filamen misalnya virus Ebola. Gambar 1.3
+    menunjukkan beberapa bentuk virus.\r\n\n\n\n\n\n\n\n\t\tStruktur tubuh virus
+    berbeda dengan sel organisme hidup lainnya. Tubuh virus bukan merupakan suatu
+    sel (disebut aseluler) karena tidak memiliki dinding sel, membrane sel, sitoplasma,
+    inti sel dan organel sel lainnya. Selain ukuran tubuhnya sangat kecil, virus
+    memiliki sifat benda mati karena terdiri atas partikel yang dapat dikristalkan.
+    Partikel virus lengkap disebut virion. Virus hanya akan menunjukkan sifat-sifat
+    makhluk hidup bila berada dalam sel organisme hidup lainnya. Itulah sebabnya
+    Sebagian ahli biologi menyatakan virus bukan merupakan makhluk hidup. Namun segian
+    ahli biologi yang lain menggolongkan virus sebagai makhluk hidup karena tubuhnya
+    tersusun dari asam nukleat yang diselubungi protein dan mampu beeproduksi.\r\n\t\tVirus
+    bakteriofag yang berbentuk huruf T memiliki bagian-bagian tubuh, yaitu: kepala.
+    Leher, dan ekor (Gambar 1.4). pada bagian ekor terdapat papan dasar dan serabut
+    ekor yang berfungsi sebagai alat menempel dan tempat peinjeksian DNA ke dalam
+    sel inang. Kepala fag berbentuk polyhedral, pada bagian kepala hingga ekor terdapat
+    kapsid dan selubung ekor (bagian terluar)serta asam nukleat berupa DNA atau RNA
+    (bagian dalam).\r\n\t1. Kapsid dan Selubung Ekor\r\n\t\tKapsid merupakan selubung
+    terluar virus yang \n\t\ttersusun atas banyak subunit protein yang\n\t\tdisebut
+    kapsomer. Kapsid inilah yang memberi\n\t\tbentuk virus. Bentuk kapsid virus \n\t\tberbeda-beda:
+    polyhedral, batang, bulat, oval\n\t\tdan lain-lain. Jenis protein penyusun kapsid.\r\n\n\t2.
+    Asam Nukleat\r\n\t\tAsam nukleat adalah pembawa informasi\n\t\tgenetika. Asam
+    nukleat pada virus berupa satu\n\t\tjenis asam nukleat, yaitu DNA saja atau RNA
+    \n\t\tsaja. Materi genetic tersebut dapat \n\t\tmembentuk untai tunggal atau
+    untai ganda. \n\t\tUtai dapat berbentuk lurus (linier) atau\n\t\tmelingkar (sirkuler).
+    Jenis asam nukleat, jenis\n\t\tuntai dan bobot molekul digunakan sebagai\n\t\tdasar
+    dalam mengklasifikasikan virus.\r"
 --- !u!222 &1532868682
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -864,6 +1066,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532868679}
+  m_CullTransparentMesh: 1
+--- !u!1 &1725570376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1725570377}
+  - component: {fileID: 1725570379}
+  - component: {fileID: 1725570378}
+  m_Layer: 5
+  m_Name: gambar1.3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1725570377
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725570376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 261, y: -2700}
+  m_SizeDelta: {x: 1000, y: 505}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1725570378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725570376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 744145906be882e4098c6c775fef480c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1725570379
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725570376}
   m_CullTransparentMesh: 1
 --- !u!1 &1739313852
 GameObject:
