@@ -237,7 +237,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 192597958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19cbc6f57c5d98943bf34b716b7402c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 41e70b7fa44204c4099ba4305fb856e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &251789742
@@ -515,7 +515,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 192597960}
-        m_TargetAssemblyTypeName: Materi_Bab1, Assembly-CSharp
+        m_TargetAssemblyTypeName: Materi_Bab2, Assembly-CSharp
         m_MethodName: BtnAugmentedReality
         m_Mode: 1
         m_Arguments:
@@ -835,28 +835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "\t\tSatu tim yang dipimpin oleh peneliti dari Purdue University di Amerika
-    Serikat untuk pertama kalinya menggambarkan Struktur Virus Zika. Tim ini mengungkap
-    pengetahuan penting untuk pengembangan vaksindan obat antiviral efektif, dalam
-    makalah ilmiah yang dipublikasikan di jurnal Science edisi 31 Maret 2016, tim
-    mengidentifikasi daerah-daerah dalam struktur virus Zika yang berbeda dari flavivirus
-    lain. Flavivirus adalah keluarga virus yang di antaranya meliputi virus seperti
-    Zika, dengue, West Nile, demam kuning, dan Japanese encephalitis.\r\n\t\t\u201CSetiap
-    daerah dalam struktur virus Zika yang unik berpotensi menjelaksan perbedaan dalam
-    bagaimana virus menular dan bagaimana virus itu bermanifestasi sebagai satu penyakit\u201D,
-    kata Richard Kuhn, direktur Purdue Institute for Inflammation, Immunology and
-    Infectious Diseases (PI4D). Kuhn, yang juga kepala departemen ilmu Biologi Purdue,
-    mengatakan struktur virus memberikan peta yang menunjukkan daerah-daerah potensial
-    virus yang bisa menjadi target terapi pengobatan, dan digunakan untuk membuat
-    vaksin efektif atau memperbaiki kemampuan mendiagnosis dan membedakan infeksi
-    Zika dari infeksi terkati virus yang lain.\r\n\t\tTim peneliti mempelajari satu
-    strainvirus Zika yang diisolasi dari satu pasien yang terinfeksi selama epidemi
-    di Polynesia Prancis dan menentukan strukturnya. Rossmann menjelaskan bahwa dengan
-    resolusi mendekati atomic, bentuk-bentuk kunci struktur virus bisa dilihat dan
-    kelompok-kelompok atom yang membentuk entitas kimia spesifik seperti yang mewakili
-    satu dari 20 asam amino alami bisa dikenal. Tim mendapati strukturnya sangat
-    mirip flavivirus yang lain, dengan genom RNA dikepung lemak, atau bergajih, membrane
-    di dalam selaput protein icosahedral. \r\n"
+  m_Text: BAB 2
 --- !u!222 &1532868682
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1263,7 +1242,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Peneliti Ungkap Struktur Virus Zika
+  m_Text: BAB 2
 --- !u!222 &1900766898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1603,7 +1582,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 192597960}
-        m_TargetAssemblyTypeName: Materi_Bab1, Assembly-CSharp
+        m_TargetAssemblyTypeName: Materi_Bab2, Assembly-CSharp
         m_MethodName: BtnClose
         m_Mode: 1
         m_Arguments:
