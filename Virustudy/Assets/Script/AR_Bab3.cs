@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Materi_Bab3 : MonoBehaviour
+public class AR_Bab3 : MonoBehaviour
 {
-	public void BtnAugmentedReality() {
+	public void btnAugmentedReality() {
 		SceneManager.LoadScene("AR_Bab3");
 	}
 	
-    public void BtnClose() {
+    public void btnBack() {
         SceneManager.LoadScene("Materi_Pilih_Bab");
 	}
 }

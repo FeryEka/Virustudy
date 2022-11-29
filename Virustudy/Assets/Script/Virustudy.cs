@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class Virustudy : MonoBehaviour
 {
     public void Lanjut() {
-        SceneManager.LoadScene("Menu");
+        StartCoroutine(DelayButtonLanjut());
 	}
+    IEnumerator DelayButtonLanjut()
+    {
+        yield return new WaitForSeconds(0.3f);
+        SceneManager.LoadScene("Menu");
+
+    }
 }

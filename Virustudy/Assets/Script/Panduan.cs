@@ -5,7 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Panduan : MonoBehaviour
 {	
-    public void BtnClose() {
-        SceneManager.LoadScene("Menu");
+    public void BtnBack()
+	{
+		StartCoroutine(DelayButtonKeluar());
+	}
+	IEnumerator DelayButtonKeluar()
+	{
+		yield return new WaitForSeconds(0.3f);
+		SceneManager.LoadScene("Menu");
 	}
 }

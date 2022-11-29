@@ -710,27 +710,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.20652673
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.039210316
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.96049756
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.18235613
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 21.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -155.73
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -739,6 +739,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
       propertyPath: m_Name
       value: Virus Corona Covid-19-FLATTEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440581705106780049, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce733bcb1ae01dd468f433a73fce1b32, type: 3}
