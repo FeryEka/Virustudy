@@ -5,7 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Kuis : MonoBehaviour
 {	
-    public void BtnClose() {
-        SceneManager.LoadScene("Menu");
+    public void btnLanjut()
+	{
+		StartCoroutine(DelaybtnLanjut());
+	}
+	IEnumerator DelaybtnLanjut()
+	{
+		yield return new WaitForSeconds(0.3f);
+		SceneManager.LoadScene("Nilai");
 	}
 }
