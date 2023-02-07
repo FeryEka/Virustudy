@@ -1671,7 +1671,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 955901931}
-  - component: {fileID: 955901933}
   - component: {fileID: 955901932}
   m_Layer: 0
   m_Name: Btn
@@ -1709,19 +1708,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 955901930}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f21d4538663bb04abb6a9777c305bba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &955901933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955901930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19cbc6f57c5d98943bf34b716b7402c3, type: 3}
+  m_Script: {fileID: 11500000, guid: a25b8166725fe42408b9281e7725d9cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1083126177
@@ -2456,7 +2443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1630907982
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3149,8 +3136,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 955901932}
-        m_TargetAssemblyTypeName: Panduan, Assembly-CSharp
-        m_MethodName: BtnBack
+        m_TargetAssemblyTypeName: Materi_Bab, Assembly-CSharp
+        m_MethodName: BtnClose
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -7,11 +7,11 @@ public class Skor : MonoBehaviour
 {
 	void Start() 
 	{
-		PlayerPrefs.SetInt("skor", 0);
+		PlayerPrefs.SetInt("Nilai", 0);
 	}
 	
     void Update()
     {
-		GetComponent<Text>().text = PlayerPrefs.GetInt("skor").ToString();
+		GetComponent<Text>().text = PlayerPrefs.GetInt("Nilai").ToString();
     }
 }

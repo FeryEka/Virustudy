@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Jawab : MonoBehaviour
+public class jawab : MonoBehaviour
 {
     public GameObject benar, salah;
 
-    public void jawaban(bool jawab)
+    public void Jawaban(bool jawab)
     {
         if (jawab)
         {
@@ -27,7 +27,7 @@ public class Jawab : MonoBehaviour
 
     }
 
-    public void btnBack()
+    public void BtnBack()
     {
         StartCoroutine(DelaybtnBack());
     }

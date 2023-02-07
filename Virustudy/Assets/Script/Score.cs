@@ -15,25 +15,25 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Text>().text = PlayerPrefs.GetInt("skor").ToString();
-        int score = PlayerPrefs.GetInt("skor");
+        GetComponent<Text>().text = PlayerPrefs.GetFloat("Nilai").ToString();
+        float score = PlayerPrefs.GetFloat("Nilai");
         if (score >= 90)
         {
-            PlayerPrefs.SetString("score", "A");
+            PlayerPrefs.SetString("Nilai", "A");
         }
         else if (score >= 75)
         {
-            PlayerPrefs.SetString("score", "B");
+            PlayerPrefs.SetString("Nilai", "B");
         }
         else if (score >= 60)
         {
-            PlayerPrefs.SetString("score", "C");
+            PlayerPrefs.SetString("Nilai", "C");
         }
         else
         {
-            PlayerPrefs.SetString("score", "D");
+            PlayerPrefs.SetString("Nilai", "D");
         }
-        GetComponent<Text>().text = PlayerPrefs.GetString("score");
+        GetComponent<Text>().text = PlayerPrefs.GetString("Nilai");
     }
 
     public void btnSelesai()

@@ -15,7 +15,7 @@ public class Score1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Text>().text = PlayerPrefs.GetInt("skor").ToString();
+        GetComponent<Text>().text = PlayerPrefs.GetFloat("Nilai").ToString();
     }
 
     public void btnSelesai()

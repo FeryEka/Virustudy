@@ -150,17 +150,23 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1976819307}
+  - {fileID: 354145902}
   - {fileID: 1532868680}
   - {fileID: 1212603623}
-  - {fileID: 1366183598}
+  - {fileID: 1378868055}
+  - {fileID: 1193739176}
   - {fileID: 1725570377}
+  - {fileID: 609337105}
+  - {fileID: 1839775082}
+  - {fileID: 810614668}
   m_Father: {fileID: 1817377765}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00036621094}
-  m_SizeDelta: {x: 24.7423, y: 16000}
+  m_AnchoredPosition: {x: -0.000058068, y: 0.001}
+  m_SizeDelta: {x: 57.1819, y: 19153.32}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &30775231
 GameObject:
@@ -375,6 +381,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 475775371}
   mainCam: {fileID: 251789744}
+--- !u!1 &354145901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354145902}
+  - component: {fileID: 354145904}
+  - component: {fileID: 354145903}
+  m_Layer: 5
+  m_Name: Sub Bab A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &354145902
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354145901}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 966.49, y: -101.88}
+  m_SizeDelta: {x: 1780.1827, y: 114.041}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &354145903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354145901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.18039216, g: 0.18039216, b: 0.18039216, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 80
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: Sejarah Virus
+--- !u!222 &354145904
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354145901}
+  m_CullTransparentMesh: 1
 --- !u!1 &394177112
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,8 +497,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0735, y: -87.82143}
-  m_SizeDelta: {x: 1713.3439, y: 2364.088}
+  m_AnchoredPosition: {x: -31.234, y: -87.82143}
+  m_SizeDelta: {x: 1857.5, y: 2364.088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394177114
 MonoBehaviour:
@@ -565,6 +650,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &609337104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 609337105}
+  - component: {fileID: 609337107}
+  - component: {fileID: 609337106}
+  m_Layer: 5
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &609337105
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609337104}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9.151306, y: -1652}
+  m_SizeDelta: {x: 1780.1827, y: 2710}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &609337106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609337104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.18039216, g: 0.18039216, b: 0.18039216, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 76
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: "\t\t\n\t\tStruktur tubuh virus berbeda dengan sel organisme hidup lainnya.
+    Tubuh virus bukan merupakan suatu sel (disebut aseluler) karena tidak memiliki
+    dinding sel, membrane sel, sitoplasma, inti sel dan organel sel lainnya. Selain
+    ukuran tubuhnya sangat kecil, virus memiliki sifat benda mati karena terdiri
+    atas partikel yang dapat dikristalkan. Partikel virus lengkap disebut virion.
+    Virus hanya akan menunjukkan sifat-sifat makhluk hidup bila berada dalam sel
+    organisme hidup lainnya. Itulah sebabnya Sebagian ahli biologi menyatakan virus
+    bukan merupakan makhluk hidup. Namun segian ahli biologi yang lain menggolongkan
+    virus sebagai makhluk hidup karena tubuhnya tersusun dari asam nukleat yang diselubungi
+    protein dan mampu bereproduksi.\r\n\n\t\tVirus bakteriofag yang berbentuk huruf
+    T memiliki bagian-bagian tubuh, yaitu: kepala. Leher, dan ekor (Gambar 1.4).
+    pada bagian ekor terdapat papan dasar dan serabut ekor yang berfungsi sebagai
+    alat menempel dan tempat peinjeksian DNA ke dalam sel inang. Kepala fag berbentuk
+    polyhedral, pada bagian kepala hingga ekor terdapat kapsid dan selubung ekor
+    (bagian terluar) serta asam nukleat berupa DNA atau RNA (bagian dalam).\r\n"
+--- !u!222 &609337107
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609337104}
+  m_CullTransparentMesh: 1
 --- !u!1 &740237251
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,8 +825,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 744170358}
   m_HandleRect: {fileID: 744170357}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.14669299
+  m_Value: 0.9999999
+  m_Size: 0.122542076
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -766,6 +944,93 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744170356}
   m_CullTransparentMesh: 1
+--- !u!1 &810614667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810614668}
+  - component: {fileID: 810614670}
+  - component: {fileID: 810614669}
+  m_Layer: 5
+  m_Name: Text (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &810614668
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810614667}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9.1513, y: -5281}
+  m_SizeDelta: {x: 1780.1827, y: 4362}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &810614669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810614667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.18039216, g: 0.18039216, b: 0.18039216, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 76
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: "\t\t1. Kapsid dan Selubung Ekor\r\n\t\tKapsid merupakan selubung terluar
+    virus yang tersusun atas banyak subunit protein yang disebut kapsomer. Kapsid
+    inilah yang memberi bentuk virus. Bentuk kapsid virus berbeda-beda: polyhedral,
+    batang, bulat, oval dan lain-lain. Jenis protein penyusun kapsid.\r\n\n\t\t2.
+    Asam Nukleat\r\n\t\tAsam nukleat adalah pembawa informasi genetika. Asam nukleat
+    pada virus berupa satu jenis asam nukleat, yaitu DNA saja atau RNA saja. Materi
+    genetic tersebut dapat membentuk untai tunggal atau untai ganda. Utai dapat berbentuk
+    lurus (linier) atau melingkar (sirkuler). Jenis asam nukleat, jenis untai dan
+    bobot molekul digunakan sebagai dasar dalam mengklasifikasikan virus.\r\n"
+--- !u!222 &810614670
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810614667}
+  m_CullTransparentMesh: 1
 --- !u!1 &881496206
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,8 +1066,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2557.8867, y: -2080.0005}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 960, y: -2079.9998}
+  m_SizeDelta: {x: 169.8767, y: 176.1973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &881496208
 MonoBehaviour:
@@ -813,9 +1078,105 @@ MonoBehaviour:
   m_GameObject: {fileID: 881496206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19cbc6f57c5d98943bf34b716b7402c3, type: 3}
+  m_Script: {fileID: 11500000, guid: cc884765d8acc6447a3b1fa823733e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1193739175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193739176}
+  - component: {fileID: 1193739178}
+  - component: {fileID: 1193739177}
+  m_Layer: 5
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1193739176
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193739175}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.103393555, y: 2511.4}
+  m_SizeDelta: {x: 1780.1827, y: 3508.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1193739177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193739175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.18039216, g: 0.18039216, b: 0.18039216, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 76
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: "\t\t\n\t\tVirus memiliki ukuran sangat renik, yaitu antara 25 \u2013 300
+    nm (1nm = 10-9m). virus yang berukuran paling kecil adalah virus polio (Poliovirus).
+    Panjang tubuhnya hanya 25 nm. Virus yang berukuran besar memiliki ukuran tubuh
+    antara 150 \u2013 300 nm atau lebih, misalnya parainfluenza virus yang menyerang
+    saluran pernafasan, Morbilivirus yang menyebabkan penyakit campak dan Tobacco
+    mosaic virus yang menyebabkan penyakit mozaik pada tembakau. Oleh karena ukuran
+    tubuhnya sangat renik, untuk mengetahui ukuran virus ada beberapa cara yang dapat
+    dilakukan, antara lain sebagai berikut:\r\n\n\t\t1.Observasi langsung menggunakan
+    \n\t\t\tmikroskop electron\r\n\t\t2.Filtrasi melalui selaput kolodion yang \n\t\t\tmempunyai
+    porositas bertingkat\r\n\t\t3.Sedimentasi dalam ultrasentrifugasi\r\n\t\t4.Pengukuran
+    perbanding\r\n\n\t\tBentuk virus bervariasi, antara lain berbentuk batang, bulat,
+    oval, filamen (benang), polyhedral, dan seperti huruf T. Virus yang berbentuk
+    batang, misalnya TMV (Tobacco mosaic virus). Virus berbentuk bulat misalnya HIV
+    (Human immunodeficiency virus) penyebab penyakit AIDS dan Orthomyzovirus penyebab
+    influenza. Virus yang berbentuk seperti huruf T misalnya bakteriofag yang berbentuk
+    polyhedral misalnya Rhabdovirus yang menyebabkan penyakit rabies, virus yang
+    berbentuk filamen misalnya virus Ebola. Gambar 1.3 menunjukkan beberapa bentuk
+    virus.\r\n"
+--- !u!222 &1193739178
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193739175}
+  m_CullTransparentMesh: 1
 --- !u!1 &1212603622
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,17 +1202,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212603622}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 16093759}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261, y: 4100}
-  m_SizeDelta: {x: 1000, y: 505}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 957.17, y: -4669.9}
+  m_SizeDelta: {x: 1780.0793, y: 1054}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212603624
 MonoBehaviour:
@@ -891,7 +1252,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212603622}
   m_CullTransparentMesh: 1
---- !u!1 &1366183597
+--- !u!1 &1378868054
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -899,72 +1260,76 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1366183598}
-  - component: {fileID: 1366183600}
-  - component: {fileID: 1366183599}
+  - component: {fileID: 1378868055}
+  - component: {fileID: 1378868057}
+  - component: {fileID: 1378868056}
   m_Layer: 5
-  m_Name: gambar1.2
+  m_Name: Sub Bab B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1366183598
+--- !u!224 &1378868055
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366183597}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1378868054}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 16093759}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261, y: 1450}
-  m_SizeDelta: {x: 1000, y: 505}
+  m_AnchoredPosition: {x: 0, y: 4322.8}
+  m_SizeDelta: {x: 1780.1827, y: 114.041}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1366183599
+--- !u!114 &1378868056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366183597}
+  m_GameObject: {fileID: 1378868054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.18039216, g: 0.18039216, b: 0.18039216, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 073e9757bb1432048b22b6088e8e2167, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1366183600
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 80
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: Ciri - Ciri Virus
+--- !u!222 &1378868057
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366183597}
+  m_GameObject: {fileID: 1378868054}
   m_CullTransparentMesh: 1
 --- !u!1 &1505203748
 GameObject:
@@ -1003,7 +1368,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1331, y: 1033}
+  m_AnchoredPosition: {x: -448, y: 1023}
   m_SizeDelta: {x: 125, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1505203750
@@ -1070,8 +1435,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 881496208}
-        m_TargetAssemblyTypeName: AR_Bab1, Assembly-CSharp
-        m_MethodName: btnBack
+        m_TargetAssemblyTypeName: AugmentedReality, Assembly-CSharp
+        m_MethodName: btnBackMenuMateri
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1149,12 +1514,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 16093759}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.006225586, y: -20.22168}
-  m_SizeDelta: {x: 1718.1, y: 16000}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 957.22, y: -2150.9}
+  m_SizeDelta: {x: 1780.1827, y: 3983.9912}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532868681
 MonoBehaviour:
@@ -1189,77 +1554,28 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "Sejarah Penemuan Virus\n\n\t\tIstilah virus berasal dari Bahasa latin
-    yang berarti racun. Virus ditemuka pertama kali oleh ilmuan jerman. Adolf Meyer,
-    pada tahun 1883 ketika sedang meneliti penyebab penyakit mosaik pada tanaman
-    tembakau. Penyakit mosaik tersebut menyebabkan bercak bercak pada daun tembakau
-    sehingga menghambat pertumbuhan tanaman, oleh karena itu disebut \u201Cmosaik\u201D.
-    Adolf Mayer berhasil memindahkan penyakit tersebut dari tanaman yang sakit ke
-    tanaman lain yang masih sehat dengan menyemprotkan getah yang diekstraksi dari
-    daun tanaman sakit ke tanaman sehat. Tanaman sehat itu pun menjadi sakit. Melalui
-    pengamatan di mikroskop, Mayer tidak dapat melihat bentuk bakteri penyebab penyakit
-    tersebut. Mayer menduga bahwa penyebab penyakit mosaik tersebut disebabkan oleh
-    bakteri yang lebih kecil dari biasanya, yang dapat diamati dengan mikroskop biasa.\r\n\t\tSatu
-    dawarsa kemudian (tahun 1892), seorang ilmuwan Rusia bernama Dimitri Ivanowsky
-    melakukan percobaan menyaring getah tanaman tembakau berpenyakit dengan saringan
-    yang dodesaom khusus untuk menyaring bakteri. Kemudian hasil saringan ditularkan
-    pada tanaman sehat. Ternyata, filtrat masih menimbulkan penyakit mosaik pada
-    tembakau sehat. Seperti halnya Meyer, Ivanowsky berkesimpulan bahwa penyakit
-    tersebut disebabkan oleh bakteri patogenik yang sangat kecil atau bakteri penghasil
-    toksin yang dapat melewati saringan. Gambar 1.1 menunjukan ilustrasi percobaan
-    Adolf Meyer dan Dimitri Ivanowsky \r\n\n\n\n\n\n\n\t\tPada tahun1897, seorang
-    ahli botani Belanda bernama Martinus Beijerinck melakukan eksperimen yang membuktikan
-    bahwa agen penginfeksi yang terdapat di dalam getah tembakau dapat berkembang
-    biak (Gambar 1.2) Beijerinck menyemprotkan getah yang telah disaring ke tanaman
-    lainnya. Setelah tanaman tersebut sakit, maka getahnya digunakan untuk menginfeksi
-    tanaman berikutnya, dan seterusnya hingga beberapa kali pemindahan. Ternyata,
-    kemampuan pathogen tersebut tidak berkurang setelah beberapa kali pemindahan.
-    Berbeda dengan bakter, agen penginfeksi tersebut tidak dapat dikembangbiakkan
-    dalam medium nutrisi di dalam cawan petri dan tidak dapat dinonaktifkan dengan
-    alcohol. Beijerinck memperkirakan agen penginfeksi tersebut adalah partikel yang
-    jauh lebih kecil dan lebih sederhana dari pada bakteri. Ia menyebutnya sebagai
-    virus lolos saring(filterable virus).\n\n\n\n\n\n\n\nCiri-Ciri Virus\r\n\n\t\tVirus
-    memiliki ukuran sangat renik, yaitu antara 25 \u2013 300 nm(1nm = 10-9m). virus
-    yang berukuran paling kecil adalah virus polio (Poliovirus). Panjang tubuhnya
-    hanya 25 nm. Virus yang berukuran besar memiliki ukuran tubuh antara 150 \u2013
-    300 nm atau lebih, misalnya parainfluenza virus yang menyerang saluran pernafasan,
-    Morbilivirus yang menyebabkan penyakit campak dan Tobacco mosaic virus yang menyebabkan
-    penyakit mozaik pada tembakau. Oleh karena ukuran tubuhnya sangat renik, untuk
-    mengetahui ukuran virus ada beberapa cara yang dapat dilakukan, antara lain sebagai
-    berikut:\r\n\t1. Observasi langsung menggunakan mikroskop electron\r\n\t2. Filtrasi
-    melalui selaput kolodion yang mempunyai porositas bertingkat\r\n\t3. Sedimentasi
-    dalam ultrasentrifugasi\r\n\t4. Pengukuran perbanding\r\nBentuk virus bervariasi,
-    antara lain berbentuk batang, bulat, oval, filamen (benang), polyhedral, dan
-    seperti huruf T. Virus yang berbentuk batang, misalnya TMV (Tobacco mosaic virus).
-    Virus berbentuk bulat misalnya HIV (Human immunodeficiency virus) penyebab penyakit
-    AIDS dan Orthomyzovirus penyebab influenza. Virus yang berbentuk seperti huruf
-    T misalnya bakteriofag yang berbentuk polyhedral misalnya Rhabdovirus yang menyebabkan
-    penyakit rabies, virus yang berbentuk filamen misalnya virus Ebola. Gambar 1.3
-    menunjukkan beberapa bentuk virus.\r\n\n\n\n\n\n\n\n\t\tStruktur tubuh virus
-    berbeda dengan sel organisme hidup lainnya. Tubuh virus bukan merupakan suatu
-    sel (disebut aseluler) karena tidak memiliki dinding sel, membrane sel, sitoplasma,
-    inti sel dan organel sel lainnya. Selain ukuran tubuhnya sangat kecil, virus
-    memiliki sifat benda mati karena terdiri atas partikel yang dapat dikristalkan.
-    Partikel virus lengkap disebut virion. Virus hanya akan menunjukkan sifat-sifat
-    makhluk hidup bila berada dalam sel organisme hidup lainnya. Itulah sebabnya
-    Sebagian ahli biologi menyatakan virus bukan merupakan makhluk hidup. Namun segian
-    ahli biologi yang lain menggolongkan virus sebagai makhluk hidup karena tubuhnya
-    tersusun dari asam nukleat yang diselubungi protein dan mampu beeproduksi.\r\n\t\tVirus
-    bakteriofag yang berbentuk huruf T memiliki bagian-bagian tubuh, yaitu: kepala.
-    Leher, dan ekor (Gambar 1.4). pada bagian ekor terdapat papan dasar dan serabut
-    ekor yang berfungsi sebagai alat menempel dan tempat peinjeksian DNA ke dalam
-    sel inang. Kepala fag berbentuk polyhedral, pada bagian kepala hingga ekor terdapat
-    kapsid dan selubung ekor (bagian terluar)serta asam nukleat berupa DNA atau RNA
-    (bagian dalam).\r\n\t1. Kapsid dan Selubung Ekor\r\n\t\tKapsid merupakan selubung
-    terluar virus yang \n\t\ttersusun atas banyak subunit protein yang\n\t\tdisebut
-    kapsomer. Kapsid inilah yang memberi\n\t\tbentuk virus. Bentuk kapsid virus \n\t\tberbeda-beda:
-    polyhedral, batang, bulat, oval\n\t\tdan lain-lain. Jenis protein penyusun kapsid.\r\n\n\t2.
-    Asam Nukleat\r\n\t\tAsam nukleat adalah pembawa informasi\n\t\tgenetika. Asam
-    nukleat pada virus berupa satu\n\t\tjenis asam nukleat, yaitu DNA saja atau RNA
-    \n\t\tsaja. Materi genetic tersebut dapat \n\t\tmembentuk untai tunggal atau
-    untai ganda. \n\t\tUtai dapat berbentuk lurus (linier) atau\n\t\tmelingkar (sirkuler).
-    Jenis asam nukleat, jenis\n\t\tuntai dan bobot molekul digunakan sebagai\n\t\tdasar
-    dalam mengklasifikasikan virus.\r"
+  m_Text: "\t\t\n\t\tKata virus adalah kata yang tidak asing lagi bagi Kalian. Dalam
+    dunia komputer, virus merupakan suatu program yang dapat mengganggu kinerja program
+    komputer lainnya. Bahkan dalam dunia sosial media istilah viral sering digunakan.
+    Kata viral ini berarti memiliki sifat seperti virus yakni mudah menyebar. Akan
+    tetapi yang akan kita bahas pada bab ini bukan virus pada dunia komputer atau
+    pada berita infotainment, melainkan virus yang memiliki material genetik yang
+    dapat menimbulkan penyakit pada manusia dan makhluk hidup lainnya.\r\n\n\t\tIstilah
+    virus berasal dari Bahasa latin yang berarti racun. Virus ditemuka pertama kali
+    oleh ilmuan German. Adolf Meyer, pada tahun 1883 ketika sedang meneliti penyebab
+    penyakit mosaik pada tanaman tembakau. Penyakit mosaik tersebut menyebabkan bercak
+    bercak pada daun tembakau sehingga menghambat pertumbuhan tanaman. Adolf Mayer
+    berhasil memindahkan penyakit tersebut dari tanaman yang sakit ke tanaman lain
+    yang masih sehat dengan menyemprotkan getah yang diekstraksi dari daun tanaman
+    sakit ke tanaman sehat. Tanaman sehat itu pun menjadi sakit. \r\n\n\t\tSatu dawarsa
+    kemudian (tahun 1892), seorang ilmuwan Rusia bernama Dimitri Ivanowsky melakukan
+    percobaan menyaring getah tanaman tembakau berpenyakit dengan saringan yang dodesaom
+    khusus untuk menyaring bakteri. Kemudian hasil saringan ditularkan pada tanaman
+    sehat. Ternyata, filtrat masih menimbulkan penyakit mosaik pada tembakau sehat.
+    Seperti halnya Meyer, Ivanowsky berkesimpulan bahwa penyakit tersebut disebabkan
+    oleh bakteri patogenik yang sangat kecil atau bakteri penghasil toksin yang dapat
+    melewati saringan. Gambar 1.1 menunjukan ilustrasi percobaan Adolf Meyer dan
+    Dimitri Ivanowsky \r\n"
 --- !u!222 &1532868682
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1514,7 +1830,7 @@ GameObject:
   - component: {fileID: 1725570379}
   - component: {fileID: 1725570378}
   m_Layer: 5
-  m_Name: gambar1.3
+  m_Name: gambar1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1532,12 +1848,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 16093759}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261, y: -2700}
-  m_SizeDelta: {x: 1000, y: 505}
+  m_AnchoredPosition: {x: 9.099609, y: 230}
+  m_SizeDelta: {x: 1780.0793, y: 1054}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725570378
 MonoBehaviour:
@@ -1772,8 +2088,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -17}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
+  m_SizeDelta: {x: 0, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1817377766
 MonoBehaviour:
@@ -1826,6 +2142,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817377764}
   m_CullTransparentMesh: 1
+--- !u!1 &1839775081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1839775082}
+  - component: {fileID: 1839775084}
+  - component: {fileID: 1839775083}
+  m_Layer: 5
+  m_Name: Sub Bab B (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1839775082
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839775081}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9.1513, y: -3064}
+  m_SizeDelta: {x: 1780.1827, y: 114.041}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1839775083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839775081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.18039216, g: 0.18039216, b: 0.18039216, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 80
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: Struktur Tubuh Bakteriofag
+--- !u!222 &1839775084
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839775081}
+  m_CullTransparentMesh: 1
 --- !u!1 &1852469056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,7 +2258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -898.6954, y: -835.144}
+  m_AnchoredPosition: {x: 0.00012207, y: -885}
   m_SizeDelta: {x: 965.9126, y: 143.1688}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852469058
@@ -1911,8 +2306,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 881496208}
-        m_TargetAssemblyTypeName: AR_Bab1, Assembly-CSharp
-        m_MethodName: btnAugmentedReality
+        m_TargetAssemblyTypeName: AugmentedReality, Assembly-CSharp
+        m_MethodName: btnArBab1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2013,8 +2408,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1.0707, y: -750}
-  m_SizeDelta: {x: 1713.3, y: 227.01733}
+  m_AnchoredPosition: {x: -0.0049706, y: -750}
+  m_SizeDelta: {x: 1920, y: 227.0173}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900766897
 MonoBehaviour:
@@ -2049,7 +2444,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Peneliti Ungkap Struktur Virus Zika
+  m_Text: SEJARAH VIRUS
 --- !u!222 &1900766898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2170,3 +2565,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927460992}
   m_CullTransparentMesh: 1
+--- !u!1 &1976819306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1976819307}
+  - component: {fileID: 1976819308}
+  m_Layer: 5
+  m_Name: First Page
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1976819307
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976819306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 16093759}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.3707886, y: 8335.093}
+  m_SizeDelta: {x: 1771.2, y: 2393.415}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1976819308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976819306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
